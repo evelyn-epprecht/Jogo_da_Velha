@@ -3,6 +3,7 @@
 ## Assista ao vídeo do Jogo da Velha
 
 [vídeo demonstrativo](https://drive.google.com/file/d/1WGIP3-Jj3D3K4j4e8sc1whnD8ZiPz6Aj/view?usp=sharing)
+[baixe o executável](https://drive.google.com/file/d/1BtW3GhuqEWHsErwKE8UIixLg5CRQC0pr/view?usp=sharing)
 
 ## Sobre o jogo
 O Jogo da Velha é uma implementação clássica do jogo de tabuleiro, onde dois jogadores competem para formar uma linha de três símbolos (X ou O) em uma grade 3x3. O jogo pode ser jogado tanto por dois jogadores locais quanto contra um bot.
