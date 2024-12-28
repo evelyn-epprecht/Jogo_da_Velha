@@ -2,7 +2,7 @@
 
 ## Assista ao vídeo do Jogo da Velha
 
-[vídeo demonstrativo](https://drive.google.com/file/d/1WGIP3-Jj3D3K4j4e8sc1whnD8ZiPz6Aj/view?usp=sharing)
+[vídeo demonstrativo](https://drive.google.com/file/d/1WGIP3-Jj3D3K4j4e8sc1whnD8ZiPz6Aj/view?usp=sharing) <br>
 [baixe o executável](https://drive.google.com/file/d/1BtW3GhuqEWHsErwKE8UIixLg5CRQC0pr/view?usp=sharing)
 
 ## Sobre o jogo
