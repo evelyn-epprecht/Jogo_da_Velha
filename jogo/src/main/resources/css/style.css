@@ -1,0 +1,96 @@
+.background {
+    -fx-background-color: linear-gradient(to bottom right, #000000, #006064);
+}
+
+/* textos principais*/
+.app-title {
+    -fx-font-size: 30px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-wrap-text: true;
+}
+
+/*Caixa de modo de jogo*/
+.caixa-dialogo{
+    -fx-font-size: 18; -fx-font-weight: bold;
+}
+
+/*tabuleiro*/
+.board{
+-fx-font-size: 24;
+-fx-base: rgb(117, 172, 189);
+-fx-text-fill: white;
+-fx-border-radius: 10px;
+}
+
+.board:hover {
+-fx-cursor: hand;
+}
+
+/* Estilo para os botões gerais com arredondamento */
+.button-style {
+    -fx-background-color: transparent;
+    -fx-border-color: white;
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10px 20px;
+    -fx-border-width: 2px;
+    -fx-border-radius: 20px;  /* Botões com borda arredondada */
+}
+
+/* Efeito hover para os botões */
+.button-hover {
+    -fx-background-color: darkcyan;
+    -fx-border-color: darkcyan;
+    -fx-text-fill: white;
+    -fx-background-radius: 25px;
+    -fx-cursor: hand;
+}
+
+/* Responsividade: Ajuste do texto no app */
+@media screen and (max-width: 600px) {
+    .app-title {
+        -fx-font-size: 20px;
+        -fx-text-fill: white;
+    }
+    .button-style {
+        -fx-font-size: 14px;
+    }
+    .button-style {
+        -fx-font-size: 14px;
+        -fx-padding: 10px;
+    }
+}
+
+/* Estilo do botão com imagem */
+.home-button {
+    -fx-background-color: transparent;  /* Fundo transparente */
+    -fx-border-color: white;  /* Cor do contorno */
+    -fx-border-radius: 50%;   /* Contorno redondo */
+    -fx-min-width: 60px;      /* Largura mínima */
+    -fx-min-height: 60px;     /* Altura mínima */
+    -fx-max-width: 60px;      /* Largura máxima */
+    -fx-max-height: 60px;     /* Altura máxima */
+    -fx-border-width: 3px;    /* Espessura do contorno */
+}
+
+/* Efeito de hover (quando o mouse passa sobre o botão) */
+.home-button:hover {
+    -fx-background-color: darkcyan;  /* Cor de fundo quando o mouse passa por cima */
+    -fx-border-color: darkcyan;      /* Cor do contorno */
+    -fx-background-radius:50%;
+    -fx-cursor: hand;
+}
+
+/* efeito de brilho no contorno da imagem*/
+.image-glow {
+    -fx-effect: dropshadow(gaussian, rgba(255, 255, 255, 0.8), 10, 0.5, 0, 0); /* Efeito de sombra inicial em branco */
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-transition: scale 0.5s ease-in-out;
+    -fx-background-color: transparent;
+    -fx-border-width: 0;
+}
+
+
+
